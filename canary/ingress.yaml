@@ -13,7 +13,7 @@ metadata:
       proxy_set_header l5d-dst-override $service_name.$namespace.svc.cluster.local:$service_port;
 spec:
   rules:
-  - host: rollouts-demo.local
+  - host: demo.4177eb7c69c4443c93d9.switzerlandnorth.aksapp.io
     http:
       paths:
       - path: /
