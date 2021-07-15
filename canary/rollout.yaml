@@ -12,7 +12,7 @@ spec:
       trafficRouting:
         smi: {}
       steps:
-      - setWeight: 100
+      - setWeight: 5
       - pause: {}
   revisionHistoryLimit: 2
   selector:
