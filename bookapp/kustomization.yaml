@@ -1,2 +1,3 @@
 resources:
 - base/bookapp.yaml
+- base/service_profile.yaml
